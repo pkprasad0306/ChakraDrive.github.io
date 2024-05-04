@@ -1,0 +1,287 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    padding: 10px;
+    font-weight: 700;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: #1d384a;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.aboutus li{
+    padding: 10px 15px;
+}
+
+.aboutus li a{
+    text-decoration: none;
+    color: #1d384a;
+    font-weight: 300;
+}
+
+.maindiv{
+    height: 500px;
+    width:100%;
+}
+
+.bg-img{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: 80%;
+    opacity: 80%;
+}    
+    
+    
+.img-text h2{
+    font-size: 60px;
+    padding: 20px 20px 0px 20px;
+    padding-top: 150px;
+    color: #ffffff;
+    display: flex;
+    align-items:center;
+}
+.subtitle p{
+    font-size: 20px;
+    color:#ffffff;
+    padding: 05px 20px 20px 20px;
+}
+
+.searchbtn{
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.searchbtn p{
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+.search{
+    padding: 8px;
+    width: 20%;
+    border-radius: 7px;
+}
+
+button{
+    padding: 7px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #e53011;
+    font-weight: 400;
+    color: white;
+}
+.mainbox{
+    width: 80%;
+    margin-left: 10%;
+}
+.feat{
+    font-size: 20px;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.feat-bar li{
+    padding: 10px;
+}
+
+.feat-bar li a{
+    border: 1px solid #1d384a;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+    color: #1d384a;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+.feat-bar li a:hover{
+    border:1px solid #02ae9f;
+    background-color:#02ae9f;
+    color: #ffffff;
+    transition: 0.8s;
+}
+.contains{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+.box{
+    margin-top: 0px;
+    border: 2px solid #DDDDDD;
+    height: 280px;
+    width: 250px;
+
+}
+.box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: 100%;
+    height: 130px;
+    width: 250px;
+
+}
+.box-content{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.box-content h2{
+    margin-bottom: 5px;
+}
+.box-content p {
+    margin-top: 10px;
+    color:#007185 ;        
+}
+.box-content p a{
+    text-decoration: none;
+}
+.details{
+    padding: 20px;
+}
+.btn{
+    padding-top: 10px;
+}
+
+.btn button{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #02ae9f;
+    border:1px solid #02ae9f;
+}
+
+.btn button:hover{
+    background-color: #02ae9f;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.brands{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+table{
+    height: 350px;
+    width: 100%;
+    padding: 20px;
+}
+
+table td{
+    height: 100px;
+    width: 50px;
+    border: 1px solid #cccbcb;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tblview td{
+    height: 30px;
+}
+
+.imgtbl img{
+    width: 90px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.imgtbl img:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+
+.tblview a{
+    text-decoration: none;
+    color: #1d384a;
+
+}
+.tblview a:hover{
+    color: #02ae9f;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: #002b50;
+}
+.footer-nav li{
+    list-style: none;
+    padding: 30px;
+    border-bottom: 2px solid #11395c;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    opacity: 50%;
+}
+.footer-nav li a:hover{
+    opacity: 100%;
+    transition:0.5s;
+}
+
+.connect{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 50%;
+    padding-top: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #11395c ;
+}
+
+.social a{
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.social a i{
+    color: white;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+.social a i:hover{
+    opacity: 100%;
+    transition: 0.4s;
+}
